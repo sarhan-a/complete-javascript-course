@@ -19,4 +19,5 @@ if (favourite === 23) {
   console.log("Number is not 23 or 7")
 }
 
-if (favourite !== 23) console.log("Why not 7?");
+// strict inequality operator
+if (favourite !== 23) console.log("Why not 23?");
