@@ -13,11 +13,11 @@ function describeCountry(country, population, capitalCity) {
   return summary;
 }
 
-const country1 = describeCountry("England", "59", "London");
-console.log(country1);
+const introEngland = describeCountry("England", "59", "London");
+console.log(introEngland);
 
-const country2 = describeCountry("Spain", "45", "Madrid");
-console.log(country2);
+const introSpain = describeCountry("Spain", "45", "Madrid");
+console.log(introSpain);
 
-const country3 = describeCountry("Ireland", "16", "Dublin");
-console.log(country3);
+const introIreland = describeCountry("Ireland", "16", "Dublin");
+console.log(introIreland);

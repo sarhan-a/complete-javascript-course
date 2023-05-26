@@ -1,7 +1,7 @@
 // a function in jS is a piece of code which can be re-used
 // a function can hold one or more complete lines of code
 // fundamental building blocks in jS programming
-
+'use strict';
 function logger() {
   console.log("My name is...Slim Shady");
 }
