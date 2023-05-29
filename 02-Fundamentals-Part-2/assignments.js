@@ -259,3 +259,23 @@ for (let i = 0; i < listOfNeighbours.length; i++) {
     console.log(`Neighbour: ${listOfNeighbours[i][y]}`)
   }
 }
+
+/*
+LECTURE: The while Loop
+1. Recreate the challenge from the lecture 'Looping Arrays, Breaking and Continuing',
+but this time using a while loop (call the array 'percentages3')
+2. Reflect on what solution you like better for this task: the for loop or the while
+loop?
+*/
+
+const populations3 = [125, 71.5, 23.5, 56];
+const percentages3 = [];
+
+let i = 0;
+while (i < populations3.length) {
+  percentages3.push(percentageOfWorld1(populations3[i]));
+  i++;
+};
+
+console.log(percentages);
+console.log(percentages3);
