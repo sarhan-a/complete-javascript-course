@@ -58,6 +58,6 @@ jessicaCopy3.lastName = "Davis";
 jessicaCopy3.family.push("Mary");
 jessicaCopy3.family.push("John");
 console.log("Before marriage:", jessica3);
-// → Before marriage3: {firstName3: 'Jessica3', lastName3: 'Williams3', age3: 27, family3: Array(4)} // same family array
+// → Before marriage: {firstName: 'Jessica', lastName: 'Williams', age: 27, family: Array(4)} // same family array
 console.log("After marriage: ", jessicaCopy3);
-// → After marriage3:  {firstName3: 'Jessica3', lastName3: 'Davis3', age3: 27, family3: Array(4)} // same family array
+// → After marriage:  {firstName: 'Jessica', lastName: 'Davis', age: 27, family: Array(4)} // same family array
